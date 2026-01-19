@@ -8,7 +8,7 @@
   },
   "homepage": "https://www.remotion.dev",
   "scripts": {
-    "dev": "next dev",
+    "dev": "TURBOPACK=0 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
